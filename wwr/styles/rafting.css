@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Intro%20Rust%20G%20Base%202%20Line&family=Footlight%20MT%20Light&display=swap');
-:root
+:root {
+    --primary-color: #B90F1D;
+    --secondary-color: #909295;
+    --accent1-color: #000000;
+    --accent2-color: #423E28;
 
- /* primary-color: #B90F1D;
- secondary-color: #909295;
- accent1-color: #000000;
- accent2-color: #423E28;
-
- heading-font: 'Intro Rust G Base 2 Line;
- paragraph-font: 'Footlight MT Light;
- */
-nav a {
-    text-decoration: underline;
+    --heading-font: "Intro Rust G Base 2 Line";
+    --paragraph-font: "Footlight MT Light";
 }
 
-.box {
-    width: auto;
-    height: auto;
-    color: #B90F1D;
-    background-color: #909295;
-    display: flex;
+header {
+    background-color: #B90F1D;
+    padding: 20px;	margin: 1rem auto;
+	display: flex;
+	grid-template-columns: 120px 1fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
 }
 
 header img {
@@ -27,19 +25,50 @@ header img {
     margin: 2px 2px 2px 2px;
 }
 
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    padding: 5px 5px 5px 275px;
+    margin: 2px 2px 2px 2px;
+}
+
 h1 {
     position: absolute;
+    display: flex;
     top: 50px;
     color: #B90F1D;
-    padding: 3px 3px 3px 3px;
+    padding: 10px 10px 10px 275px;
+    margin: 3px;
 }
 
-header {
-    background-color: #B90F1D;
+h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 12;
+
 }
 
-footer {
-    background-color: #B90F1D;
+h3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 12;
+    margin: 3px;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    color: #B90F1D;
+    background-color: #909295;
+    display: flex;
 }
 
 .hero {
@@ -71,7 +100,8 @@ article p {
     background-color: #eee;
     width: 65%;
     opacity:.5;
-    padding: 5px 5px 5px 5px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
 }
 
 section {
@@ -88,4 +118,22 @@ section p {
     width: 65%;
     opacity:.5;
     padding: 5px 5px 5px 5px;
+}
+
+.sociallinks {
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+.sociallinks img {
+    width:50px
+}
+
+footer {
+    background-color: #B90F1D;
+}
+
+footer p {
+    position: absolute;
+    display: flex;
+    padding: 10px 10px 10px 275px;
 }
