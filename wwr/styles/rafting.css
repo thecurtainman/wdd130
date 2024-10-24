@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Intro%20Rust%20G%20Base%202%20Line&family=Footlight%20MT%20Light&display=swap');
+:root
+
+ /* primary-color: #B90F1D;
+ secondary-color: #909295;
+ accent1-color: #000000;
+ accent2-color: #423E28;
+
+ heading-font: 'Intro Rust G Base 2 Line;
+ paragraph-font: 'Footlight MT Light;
+ */
+nav a {
+    text-decoration: underline;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    color: #B90F1D;
+    background-color: #909295;
+    display: flex;
+}
+
+header img {
+    background-color: #909295;
+    padding: 5px 5px 5px 5px;
+    margin: 2px 2px 2px 2px;
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    color: #B90F1D;
+    padding: 3px 3px 3px 3px;
+}
+
+header {
+    background-color: #B90F1D;
+}
+
+footer {
+    background-color: #B90F1D;
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+article {
+    position: absolute;
+}
+.hero article img {
+
+    float: right;
+    position: relative;
+    bottom: 500px;
+    width: 30%;
+    opacity: 1;
+    padding: 10px 20px 10px 10px;
+    background: 10px 20px 10px 10px;
+}
+article p {
+    position: relative;
+    bottom: 500px;
+    background-color: #eee;
+    width: 65%;
+    opacity:.5;
+    padding: 5px 5px 5px 5px;
+}
+
+section {
+    position: relative;
+    background-color: #eee;
+    width: 100%;
+    opacity:1;
+    padding: 5px 5px 5px 5px;
+}
+
+section p {
+    position: relative;
+    background-color: #eee;
+    width: 65%;
+    opacity:.5;
+    padding: 5px 5px 5px 5px;
+}
