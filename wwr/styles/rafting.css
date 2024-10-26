@@ -148,7 +148,7 @@ footer p {
     width: auto;
 }
 
-.employee-profiles {
+.employee {
     position: relative;
     display: flex;
     padding: 10px 10px 10px 10px;
@@ -156,5 +156,12 @@ footer p {
 }
 
 .package {
+    justify-content: space-around;
+}
+
+.p-spacing {
+    position: relative;
+    display: flex;
+    padding: 10px 10px 10px 10px;
     justify-content: space-around;
 }
