@@ -142,3 +142,10 @@ footer p {
     text-align: center;
     width: auto;
 }
+
+.employee-profiles {
+    position: relative;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-around;
+}
