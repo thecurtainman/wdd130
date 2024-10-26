@@ -149,3 +149,7 @@ footer p {
     padding: 10px 10px 10px 10px;
     justify-content: space-around;
 }
+
+.package {
+    justify-content: space-around;
+}
