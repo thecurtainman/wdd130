@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Critical Rafting Haunted Tours for inquiries, reservations, or to join our newsletter.">
+    <meta name="author" content="Jarred Merriam">
+    <title>Contact Us | Critical Rafting Haunted Tours</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Into+Rust+G+Base+2+Line:wght@400;700;900&family=Footlight+MT+Light:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/critical_rafting_haunted_tours_logo_full.png" alt="Critical Rafting Haunted Tours Logo" width="100">
+        </div>
+        <nav>
+            <a href="wwr/index.html">Home</a>
+            <a href="wwr/about.html">About Us</a>
+            <a href="wwr/trips.html">Trips</a>
+            <a href="wwr/contact.html">Contact Us</a>
+        </nav>           
+    </header>
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p>Have questions, want to book a trip, or need more info? Get in touch with us below!</p>
+            
+            <div class="company-info">
+                <h2>Company Information</h2>
+                <p><strong>Address:</strong> 123 Rapids Lane, Haunted River City, HW 78910</p>
+                <p><strong>Phone:</strong> (555) 123-4567 | <strong>Reservations:</strong> (555) 765-4321</p>
+                <p><strong>Email:</strong> <a href="mailto:info@criticalraftinghauntedtours.com">info@criticalraftinghauntedtours.com</a></p>
+                
+                <!-- Google Map Embed -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.090938626615!2d-122.40641758469227!3d37.78502677975861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064af8df09f%3A0x78c2323f2f6f9e85!2s123%20Rapids%20Ln%2C%20San%20Francisco%2C%20CA%2094133!5e0!3m2!1sen!2sus!4v1671234567890!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="Profile of Alex - Tour Guide" width="200">
+                <p><strong>Alex Johnson</strong><br>Senior Tour Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Profile of Jamie - Customer Relations" width="200">
+                <p><strong>Jamie Lee</strong><br>Customer Relations Specialist</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Profile of Taylor - Reservations Manager" width="200">
+                <p><strong>Taylor Smith</strong><br>Reservations Manager</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label><input type="radio" name="purpose" value="general_inquiry" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation_question"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website_suggestion"> Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️2024 | Critical Rafting Haunted Tours | Jarred Merriam</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
