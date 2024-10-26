@@ -165,3 +165,8 @@ footer p {
     padding: 10px 10px 10px 10px;
     justify-content: space-around;
 }
+
+.wireframe {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
